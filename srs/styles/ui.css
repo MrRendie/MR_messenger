@@ -1,0 +1,15 @@
+.ui-panel {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  transition: background 0.2s, border 0.2s;
+}
+
+.ui-hover {
+  transition: all 0.15s ease;
+}
+
+.ui-hover:hover {
+  background: var(--accent-soft);
+  transform: translateY(-1px);
+}
+
